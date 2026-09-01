@@ -1,0 +1,745 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ═══════════════════════════════════════════════════════════════
+   SolaimanLipi Bengali Font — Direct @font-face (works for ALL languages)
+   Hosted via jsDelivr CDN from kawsarahmedr/SolaimanLipi
+   ═══════════════════════════════════════════════════════════════ */
+@font-face {
+  font-family: 'SolaimanLipi';
+  src: local('SolaimanLipi'),
+       local('SolaimanLipiNormal'),
+       url('https://cdn.jsdelivr.net/gh/kawsarahmedr/SolaimanLipi@master/SolaimanLipiNormal.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/kawsarahmedr/SolaimanLipi@master/SolaimanLipiNormal.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-10FFFF; /* All Unicode — Bengali, English, Arabic, etc. */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: SolaimanLipi, var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.75rem;
+  --color-bd-green: #006a4e;
+  --color-bd-red: #f42a41;
+  --color-bd-green-light: #00875a;
+  --color-chatbot: #5350C4;
+  --color-chatbot-dark: #3d39ac;
+  --color-chatbot-light: #f1f1ff;
+
+  /* Light Mode Colors */
+  --background: #FFFFFF;
+  --foreground: #212529;
+  --card: #F8F9FA;
+  --card-foreground: #212529;
+  --popover: #FFFFFF;
+  --popover-foreground: #212529;
+  --primary: #006a4e;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F8F9FA;
+  --secondary-foreground: #212529;
+  --muted: #F8F9FA;
+  --muted-foreground: #6C757D;
+  --accent: #F8F9FA;
+  --accent-foreground: #212529;
+  --destructive: #E53935;
+  --border: #E0E0E0;
+  --input: #E0E0E0;
+  --ring: #006a4e;
+  --chart-1: #006a4e;
+  --chart-2: #f42a41;
+  --chart-3: #00875a;
+  --chart-4: #3776ab;
+  --chart-5: #a259ff;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #212529;
+  --sidebar-primary: #006a4e;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F8F9FA;
+  --sidebar-accent-foreground: #212529;
+  --sidebar-border: #E0E0E0;
+  --sidebar-ring: #006a4e;
+}
+
+.dark {
+  /* Dark Mode Colors */
+  --background: #121212;
+  --foreground: #E0E0E0;
+  --card: #1E1E1E;
+  --card-foreground: #E0E0E0;
+  --popover: #1E1E1E;
+  --popover-foreground: #E0E0E0;
+  --primary: #00875a;
+  --primary-foreground: #FFFFFF;
+  --secondary: #2A2A2A;
+  --secondary-foreground: #E0E0E0;
+  --muted: #2A2A2A;
+  --muted-foreground: #A0A0A0;
+  --accent: #2A2A2A;
+  --accent-foreground: #E0E0E0;
+  --destructive: #EF5350;
+  --border: #333333;
+  --input: #333333;
+  --ring: #00875a;
+  --chart-1: #00875a;
+  --chart-2: #f42a41;
+  --chart-3: #006a4e;
+  --chart-4: #3776ab;
+  --chart-5: #a259ff;
+  --sidebar: #1E1E1E;
+  --sidebar-foreground: #E0E0E0;
+  --sidebar-primary: #00875a;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #2A2A2A;
+  --sidebar-accent-foreground: #E0E0E0;
+  --sidebar-border: #333333;
+  --sidebar-ring: #00875a;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+/* SolaimanLipi Font — applied globally (outside @layer to override Tailwind preflight) */
+/* Custom font override is applied by CustomFontLoader component if admin sets one */
+body, h1, h2, h3, h4, h5, h6, button, input, textarea, select, label, p, span, a, div, li, td, th {
+  font-family: var(--site-font, 'SolaimanLipi'), ui-sans-serif, system-ui, sans-serif !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--muted); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ring); }
+html { scroll-behavior: smooth; }
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #006a4e, #00875a, #f42a41);
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(0, 106, 78, 0.2); }
+  50% { box-shadow: 0 0 25px rgba(0, 106, 78, 0.4); }
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+.animate-spin-slow { animation: spin-slow 20s linear infinite; }
+.animate-marquee { animation: marquee 30s linear infinite; }
+.section-divider {
+  background: linear-gradient(90deg, transparent, #006a4e, transparent);
+  height: 2px;
+}
+.card-glow { position: relative; overflow: hidden; }
+.card-glow::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0,106,78,0.05), transparent);
+  transition: left 0.5s ease;
+}
+.card-glow:hover::before { left: 100%; }
+
+/* Hero gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #006a4e05 0%, transparent 50%, #f42a4105 100%);
+}
+.dark .hero-gradient {
+  background: linear-gradient(135deg, #006a4e10 0%, transparent 50%, #f42a4110 100%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Chatbot Markdown Renderer — Full Styling
+   Supports: headings, bold, italic, lists, links, code blocks
+   with syntax highlighting, blockquotes, tables, images, hr
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Root Container ── */
+.chatbot-md-root {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.chatbot-md-root > *:first-child { margin-top: 0; }
+.chatbot-md-root > *:last-child { margin-bottom: 0; }
+
+/* ── Headings ── */
+.chatbot-md-h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.4rem 0;
+  line-height: 1.3;
+}
+.chatbot-md-h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0.65rem 0 0.35rem 0;
+  line-height: 1.35;
+}
+.chatbot-md-h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.55rem 0 0.3rem 0;
+  line-height: 1.4;
+}
+.chatbot-md-h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.25rem 0;
+}
+.chatbot-md-h5 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.45rem 0 0.2rem 0;
+}
+.chatbot-md-h6 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.4rem 0 0.2rem 0;
+  opacity: 0.85;
+}
+
+/* Light mode heading colors */
+.chatbot-md-light .chatbot-md-h1,
+.chatbot-md-light .chatbot-md-h2,
+.chatbot-md-light .chatbot-md-h3 {
+  color: #1E1B4B;
+}
+.chatbot-md-light .chatbot-md-h4,
+.chatbot-md-light .chatbot-md-h5,
+.chatbot-md-light .chatbot-md-h6 {
+  color: #312E81;
+}
+/* Dark mode heading colors */
+.chatbot-md-dark .chatbot-md-h1,
+.chatbot-md-dark .chatbot-md-h2,
+.chatbot-md-dark .chatbot-md-h3 {
+  color: #F0EEFF;
+}
+.chatbot-md-dark .chatbot-md-h4,
+.chatbot-md-dark .chatbot-md-h5,
+.chatbot-md-dark .chatbot-md-h6 {
+  color: #D4D2F0;
+}
+
+/* ── Paragraph ── */
+.chatbot-md-p {
+  margin: 0.3rem 0;
+}
+
+/* ── Bold / Italic / Strikethrough ── */
+.chatbot-md-strong {
+  font-weight: 700;
+}
+.chatbot-md-em {
+  font-style: italic;
+}
+.chatbot-md-del {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* ── Links ── */
+.chatbot-md-link {
+  color: #5350C4;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.chatbot-md-link:hover {
+  color: #3d39ac;
+  border-bottom-color: #5350C4;
+}
+.chatbot-md-dark .chatbot-md-link {
+  color: #A5A3E8;
+}
+.chatbot-md-dark .chatbot-md-link:hover {
+  color: #C4C2FF;
+  border-bottom-color: #A5A3E8;
+}
+
+/* ── Lists ── */
+.chatbot-md-ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.4rem 0;
+}
+.chatbot-md-ul > .chatbot-md-li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin: 0.2rem 0;
+}
+.chatbot-md-ul > .chatbot-md-li::before {
+  content: '';
+  position: absolute;
+  left: 0.2rem;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #5350C4;
+  opacity: 0.7;
+}
+
+.chatbot-md-ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.4rem 0;
+  counter-reset: chatbot-ol-counter;
+}
+.chatbot-md-ol > .chatbot-md-li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 0.2rem 0;
+  counter-increment: chatbot-ol-counter;
+}
+.chatbot-md-ol > .chatbot-md-li::before {
+  content: counter(chatbot-ol-counter) '.';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #5350C4;
+  opacity: 0.8;
+}
+.chatbot-md-dark .chatbot-md-ol > .chatbot-md-li::before {
+  color: #A5A3E8;
+}
+
+.chatbot-md-li {
+  line-height: 1.6;
+}
+
+/* Nested lists */
+.chatbot-md-ul .chatbot-md-ul,
+.chatbot-md-ol .chatbot-md-ol,
+.chatbot-md-ul .chatbot-md-ol,
+.chatbot-md-ol .chatbot-md-ul {
+  margin: 0.15rem 0;
+}
+
+/* ── Blockquote ── */
+.chatbot-md-blockquote {
+  border-left: 3px solid #5350C4;
+  padding: 0.4rem 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 0 0.4rem 0.4rem 0;
+  font-style: italic;
+}
+.chatbot-md-light .chatbot-md-blockquote {
+  background: rgba(83, 80, 196, 0.06);
+  color: #374151;
+}
+.chatbot-md-dark .chatbot-md-blockquote {
+  background: rgba(83, 80, 196, 0.12);
+  color: #C4C2DA;
+  border-left-color: #7B68EE;
+}
+
+/* ── Horizontal Rule ── */
+.chatbot-md-hr {
+  border: none;
+  height: 1px;
+  margin: 0.6rem 0;
+  background: linear-gradient(90deg, transparent, #5350C440, transparent);
+}
+
+/* ── Inline Code ── */
+.chatbot-md-code-inline {
+  background: rgba(83, 80, 196, 0.1);
+  color: #5350C4;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Consolas', 'Liberation Mono', 'Menlo', monospace !important;
+  font-size: 0.8rem;
+  word-break: break-word;
+}
+.chatbot-md-dark .chatbot-md-code-inline {
+  background: rgba(123, 104, 238, 0.18);
+  color: #C4B5FD;
+}
+
+/* ── Code Block ── */
+.chatbot-md-code-block-wrapper {
+  margin: 0.5rem 0;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  border: 1px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.chatbot-md-light .chatbot-md-code-block-wrapper {
+  border-color: rgba(83, 80, 196, 0.15);
+}
+.chatbot-md-dark .chatbot-md-code-block-wrapper {
+  border-color: rgba(83, 80, 196, 0.25);
+}
+
+.chatbot-md-code-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.chatbot-md-light .chatbot-md-code-header {
+  background: linear-gradient(135deg, #F2F2FF, #E8E7F8);
+  color: #5350C4;
+}
+.chatbot-md-dark .chatbot-md-code-header {
+  background: linear-gradient(135deg, #1A1833, #252242);
+  color: #A5A3E8;
+}
+
+.chatbot-md-code-lang {
+  font-family: 'SF Mono', 'Fira Code', monospace !important;
+}
+
+.chatbot-md-copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.chatbot-md-light .chatbot-md-copy-btn {
+  background: rgba(83, 80, 196, 0.1);
+  color: #5350C4;
+}
+.chatbot-md-light .chatbot-md-copy-btn:hover {
+  background: rgba(83, 80, 196, 0.2);
+}
+.chatbot-md-dark .chatbot-md-copy-btn {
+  background: rgba(123, 104, 238, 0.15);
+  color: #A5A3E8;
+}
+.chatbot-md-dark .chatbot-md-copy-btn:hover {
+  background: rgba(123, 104, 238, 0.3);
+}
+
+.chatbot-md-code-block {
+  margin: 0 !important;
+  padding: 0.7rem !important;
+  border-radius: 0 !important;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Consolas', 'Liberation Mono', 'Menlo', monospace !important;
+}
+.chatbot-md-code-light {
+  background: #FAFAFF !important;
+}
+.chatbot-md-code-dark {
+  background: #13112B !important;
+}
+.chatbot-md-code-block code {
+  background: transparent !important;
+  padding: 0 !important;
+  font-size: inherit;
+  font-family: inherit !important;
+}
+
+/* ── Table ── */
+.chatbot-md-table-wrapper {
+  margin: 0.5rem 0;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  border: 1px solid;
+}
+.chatbot-md-light .chatbot-md-table-wrapper {
+  border-color: rgba(83, 80, 196, 0.12);
+}
+.chatbot-md-dark .chatbot-md-table-wrapper {
+  border-color: rgba(83, 80, 196, 0.2);
+}
+
+.chatbot-md-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.chatbot-md-thead {
+  border-bottom: 2px solid;
+}
+.chatbot-md-light .chatbot-md-thead {
+  border-color: rgba(83, 80, 196, 0.2);
+}
+.chatbot-md-dark .chatbot-md-thead {
+  border-color: rgba(83, 80, 196, 0.3);
+}
+
+.chatbot-md-tbody {
+  border-bottom: 1px solid;
+}
+.chatbot-md-light .chatbot-md-tbody {
+  border-color: rgba(83, 80, 196, 0.08);
+}
+.chatbot-md-dark .chatbot-md-tbody {
+  border-color: rgba(83, 80, 196, 0.12);
+}
+
+.chatbot-md-tr {
+  border-bottom: 1px solid;
+}
+.chatbot-md-light .chatbot-md-tr {
+  border-color: rgba(83, 80, 196, 0.06);
+}
+.chatbot-md-dark .chatbot-md-tr {
+  border-color: rgba(83, 80, 196, 0.1);
+}
+.chatbot-md-tr:last-child {
+  border-bottom: none;
+}
+
+.chatbot-md-th {
+  padding: 0.4rem 0.65rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.chatbot-md-light .chatbot-md-th {
+  background: rgba(83, 80, 196, 0.06);
+  color: #312E81;
+}
+.chatbot-md-dark .chatbot-md-th {
+  background: rgba(83, 80, 196, 0.12);
+  color: #D4D2F0;
+}
+
+.chatbot-md-td {
+  padding: 0.35rem 0.65rem;
+}
+.chatbot-md-tr:hover .chatbot-md-td {
+  background: rgba(83, 80, 196, 0.03);
+}
+.chatbot-md-dark .chatbot-md-tr:hover .chatbot-md-td {
+  background: rgba(83, 80, 196, 0.06);
+}
+
+/* ── Image ── */
+.chatbot-md-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 0.4rem 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Highlight.js — GitHub-inspired Theme (Light + Dark)
+   Inline to avoid extra CSS import
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Light theme (default for .chatbot-md-code-light) */
+.chatbot-md-code-light .hljs {
+  color: #24292e;
+  background: transparent;
+}
+.chatbot-md-code-light .hljs-comment,
+.chatbot-md-code-light .hljs-quote {
+  color: #6a737d;
+  font-style: italic;
+}
+.chatbot-md-code-light .hljs-keyword,
+.chatbot-md-code-light .hljs-selector-tag,
+.chatbot-md-code-light .hljs-addition {
+  color: #d73a49;
+}
+.chatbot-md-code-light .hljs-number,
+.chatbot-md-code-light .hljs-string,
+.chatbot-md-code-light .hljs-meta .hljs-meta-string,
+.chatbot-md-code-light .hljs-literal,
+.chatbot-md-code-light .hljs-doctag,
+.chatbot-md-code-light .hljs-regexp {
+  color: #032f62;
+}
+.chatbot-md-code-light .hljs-title,
+.chatbot-md-code-light .hljs-section,
+.chatbot-md-code-light .hljs-name,
+.chatbot-md-code-light .hljs-selector-id {
+  color: #6f42c1;
+  font-weight: 600;
+}
+.chatbot-md-code-light .hljs-attribute,
+.chatbot-md-code-light .hljs-attr,
+.chatbot-md-code-light .hljs-variable,
+.chatbot-md-code-light .hljs-template-variable,
+.chatbot-md-code-light .hljs-class .hljs-title,
+.chatbot-md-code-light .hljs-type {
+  color: #e36209;
+}
+.chatbot-md-code-light .hljs-symbol,
+.chatbot-md-code-light .hljs-bullet,
+.chatbot-md-code-light .hljs-subst,
+.chatbot-md-code-light .hljs-meta,
+.chatbot-md-code-light .hljs-meta .hljs-keyword,
+.chatbot-md-code-light .hljs-selector-attr,
+.chatbot-md-code-light .hljs-selector-pseudo,
+.chatbot-md-code-light .hljs-link {
+  color: #005cc5;
+}
+.chatbot-md-code-light .hljs-built_in,
+.chatbot-md-code-light .hljs-deletion {
+  color: #22863a;
+}
+.chatbot-md-code-light .hljs-params {
+  color: #24292e;
+}
+.chatbot-md-code-light .hljs-formula {
+  background-color: #f6f8fa;
+}
+.chatbot-md-code-light .hljs-emphasis {
+  font-style: italic;
+}
+.chatbot-md-code-light .hljs-strong {
+  font-weight: 700;
+}
+
+/* Dark theme (for .chatbot-md-code-dark) */
+.chatbot-md-code-dark .hljs {
+  color: #e1e4e8;
+  background: transparent;
+}
+.chatbot-md-code-dark .hljs-comment,
+.chatbot-md-code-dark .hljs-quote {
+  color: #8b949e;
+  font-style: italic;
+}
+.chatbot-md-code-dark .hljs-keyword,
+.chatbot-md-code-dark .hljs-selector-tag,
+.chatbot-md-code-dark .hljs-addition {
+  color: #ff7b72;
+}
+.chatbot-md-code-dark .hljs-number,
+.chatbot-md-code-dark .hljs-string,
+.chatbot-md-code-dark .hljs-meta .hljs-meta-string,
+.chatbot-md-code-dark .hljs-literal,
+.chatbot-md-code-dark .hljs-doctag,
+.chatbot-md-code-dark .hljs-regexp {
+  color: #a5d6ff;
+}
+.chatbot-md-code-dark .hljs-title,
+.chatbot-md-code-dark .hljs-section,
+.chatbot-md-code-dark .hljs-name,
+.chatbot-md-code-dark .hljs-selector-id {
+  color: #d2a8ff;
+  font-weight: 600;
+}
+.chatbot-md-code-dark .hljs-attribute,
+.chatbot-md-code-dark .hljs-attr,
+.chatbot-md-code-dark .hljs-variable,
+.chatbot-md-code-dark .hljs-template-variable,
+.chatbot-md-code-dark .hljs-class .hljs-title,
+.chatbot-md-code-dark .hljs-type {
+  color: #ffa657;
+}
+.chatbot-md-code-dark .hljs-symbol,
+.chatbot-md-code-dark .hljs-bullet,
+.chatbot-md-code-dark .hljs-subst,
+.chatbot-md-code-dark .hljs-meta,
+.chatbot-md-code-dark .hljs-meta .hljs-keyword,
+.chatbot-md-code-dark .hljs-selector-attr,
+.chatbot-md-code-dark .hljs-selector-pseudo,
+.chatbot-md-code-dark .hljs-link {
+  color: #79c0ff;
+}
+.chatbot-md-code-dark .hljs-built_in,
+.chatbot-md-code-dark .hljs-deletion {
+  color: #7ee787;
+}
+.chatbot-md-code-dark .hljs-params {
+  color: #e1e4e8;
+}
+.chatbot-md-code-dark .hljs-formula {
+  background-color: #161b22;
+}
+.chatbot-md-code-dark .hljs-emphasis {
+  font-style: italic;
+}
+.chatbot-md-code-dark .hljs-strong {
+  font-weight: 700;
+}
+
+/* Inline code in chatbot should use monospace even with global font override */
+.chatbot-md-code-inline,
+.chatbot-md-code-block,
+.chatbot-md-code-block code,
+.chatbot-md-code-lang,
+.chatbot-md-table {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Consolas', 'Liberation Mono', 'Menlo', monospace !important;
+}

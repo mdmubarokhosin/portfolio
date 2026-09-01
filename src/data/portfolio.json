@@ -1,0 +1,206 @@
+{
+  "personal": {
+    "name": "MD MUBAROK HOSIN",
+    "nameBn": "মো. মুবারক হোসেন",
+    "firstName": "Mubarok",
+    "firstNameBn": "মুবারক",
+    "initials": "MMH",
+    "title": "Web Developer",
+    "titleBn": "ওয়েব ডেভেলপার",
+    "tagline": "Building modern web experiences with clean code",
+    "taglineBn": "পরিষ্কার কোডের সাথে আধুনিক ওয়েব অভিজ্ঞতা তৈরি করছি",
+    "bio": {
+      "short": "A passionate web developer from Bangladesh specializing in React, Next.js, and modern web technologies.",
+      "shortBn": "বাংলাদেশের একজন অনুরাগী ওয়েব ডেভেলপার যিনি React, Next.js এবং আধুনিক ওয়েব প্রযুক্তিতে বিশেষজ্ঞ।",
+      "full": [
+        "I am a passionate web developer with expertise in building modern, responsive, and user-friendly web applications using React, Next.js, TypeScript, and Node.js."
+      ],
+      "fullBn": [
+        "আমি একজন অনুরাগী ওয়েব ডেভেলপার যিনি React, Next.js, TypeScript এবং Node.js ব্যবহার করে আধুনিক, রেসপন্সিভ এবং ব্যবহারকারী-বান্ধব ওয়েব অ্যাপ্লিকেশন তৈরি করতে দক্ষ।"
+      ]
+    },
+    "email": "admin@mubarok.com",
+    "phone": "+880XXXXXXXXX",
+    "location": "Bangladesh",
+    "locationEn": "Bangladesh",
+    "languages": ["Bengali", "English", "Hindi"],
+    "availability": "Open to work",
+    "availabilityBn": "কাজ করতে আগ্রহী",
+    "profileImage": "",
+    "resumeUrl": "",
+    "siteLogo": ""
+  },
+  "stats": [
+    { "label": "Projects", "labelBn": "প্রজেক্ট", "value": 10, "suffix": "+", "icon": "bi-code-slash" },
+    { "label": "Technologies", "labelBn": "প্রযুক্তি", "value": 20, "suffix": "+", "icon": "bi-layers" },
+    { "label": "Experience", "labelBn": "অভিজ্ঞতা", "value": 2, "suffix": " Years", "icon": "bi-briefcase-fill" },
+    { "label": "Clients", "labelBn": "ক্লায়েন্ট", "value": 15, "suffix": "+", "icon": "bi-people-fill" }
+  ],
+  "pages": [
+    { "id": "home", "label": "Home", "labelBn": "হোম", "icon": "bi-house-door-fill" },
+    { "id": "about", "label": "About", "labelBn": "সম্পর্কে", "icon": "bi-person-fill" },
+    { "id": "skills", "label": "Skills", "labelBn": "দক্ষতা", "icon": "bi-code-slash" },
+    { "id": "projects", "label": "Projects", "labelBn": "প্রজেক্ট", "icon": "bi-folder-fill" },
+    { "id": "experience", "label": "Experience", "labelBn": "অভিজ্ঞতা", "icon": "bi-briefcase-fill" },
+    { "id": "contact", "label": "Contact", "labelBn": "যোগাযোগ", "icon": "bi-envelope-fill" }
+  ],
+  "socialLinks": [
+    { "name": "GitHub", "icon": "bi-github", "url": "https://github.com/mdmubarokhosin" },
+    { "name": "LinkedIn", "icon": "bi-linkedin", "url": "https://linkedin.com/in/mdmubarokhosin" },
+    { "name": "Facebook", "icon": "bi-facebook", "url": "https://facebook.com/mdmubarokhosin" }
+  ],
+  "services": [
+    {
+      "title": "Web Development",
+      "titleBn": "ওয়েব ডেভেলপমেন্ট",
+      "description": "Building modern, responsive web applications using cutting-edge technologies.",
+      "descriptionBn": "আধুনিক প্রযুক্তি ব্যবহার করে আধুনিক, রেসপন্সিভ ওয়েব অ্যাপ্লিকেশন তৈরি।",
+      "icon": "bi-globe2",
+      "color": "#006a4e"
+    },
+    {
+      "title": "UI/UX Design",
+      "titleBn": "ইউআই/ইউএক্স ডিজাইন",
+      "description": "Creating beautiful and intuitive user interfaces with great user experience.",
+      "descriptionBn": "চমৎকার ব্যবহারকারী অভিজ্ঞতার সাথে সুন্দর এবং স্বজ্ঞাত ইউজার ইন্টারফেস তৈরি।",
+      "icon": "bi-palette-fill",
+      "color": "#3b82f6"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "icon": "bi-code-slash",
+      "level": 90,
+      "color": "#61dafb",
+      "category": "frontend",
+      "logoUrl": "https://cdn.simpleicons.org/react/61dafb"
+    },
+    {
+      "name": "Next.js",
+      "icon": "bi-code-slash",
+      "level": 85,
+      "color": "#000000",
+      "category": "frontend",
+      "logoUrl": "https://cdn.simpleicons.org/nextdotjs/000000"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "bi-filetype-tsx",
+      "level": 80,
+      "color": "#3178c6",
+      "category": "frontend",
+      "logoUrl": "https://cdn.simpleicons.org/typescript/3178c6"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "bi-palette",
+      "level": 88,
+      "color": "#06b6d4",
+      "category": "frontend",
+      "logoUrl": "https://cdn.simpleicons.org/tailwindcss/06b6d4"
+    },
+    {
+      "name": "Node.js",
+      "icon": "bi-hdd-network-fill",
+      "level": 75,
+      "color": "#339933",
+      "category": "backend",
+      "logoUrl": "https://cdn.simpleicons.org/nodedotjs/339933"
+    },
+    {
+      "name": "Firebase",
+      "icon": "bi-database-fill",
+      "level": 70,
+      "color": "#ffca28",
+      "category": "backend",
+      "logoUrl": "https://cdn.simpleicons.org/firebase/ffca28"
+    }
+  ],
+  "skillCategories": [
+    { "id": "all", "label": "All", "labelBn": "সব", "icon": "bi-grid-3x3-gap-fill" },
+    { "id": "frontend", "label": "Frontend", "labelBn": "ফ্রন্টএন্ড", "icon": "bi-display" },
+    { "id": "backend", "label": "Backend", "labelBn": "ব্যাকএন্ড", "icon": "bi-hdd-network" },
+    { "id": "tools", "label": "Tools", "labelBn": "টুলস", "icon": "bi-tools" }
+  ],
+  "additionalTools": [
+    { "name": "Git", "icon": "bi-git", "logoUrl": "https://cdn.simpleicons.org/git/f05032" },
+    { "name": "VS Code", "icon": "bi-file-earmark-code", "logoUrl": "https://cdn.simpleicons.org/visualstudiocode/007acc" },
+    { "name": "Figma", "icon": "bi-vector-pen", "logoUrl": "https://cdn.simpleicons.org/figma/f24e1e" }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "titleBn": "পোর্টফোলিও ওয়েবসাইট",
+      "description": "A modern portfolio website built with Next.js, TypeScript, and Tailwind CSS with Firebase backend.",
+      "descriptionBn": "Next.js, TypeScript এবং Tailwind CSS দিয়ে তৈরি একটি আধুনিক পোর্টফোলিও ওয়েবসাইট।",
+      "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Firebase"],
+      "icon": "bi-globe2",
+      "color": "#006a4e",
+      "liveUrl": "https://example.com",
+      "codeUrl": "https://github.com/mdmubarokhosin/portfolio",
+      "featured": true,
+      "category": "fullstack",
+      "projectLogo": "",
+      "coverImage": ""
+    }
+  ],
+  "projectCategories": [
+    { "id": "all", "label": "All", "labelBn": "সব", "icon": "bi-grid-3x3-gap-fill" },
+    { "id": "fullstack", "label": "Full Stack", "labelBn": "ফুল স্ট্যাক", "icon": "bi-layers-fill" },
+    { "id": "frontend", "label": "Frontend", "labelBn": "ফ্রন্টএন্ড", "icon": "bi-display" },
+    { "id": "backend", "label": "Backend", "labelBn": "ব্যাকএন্ড", "icon": "bi-hdd-network" }
+  ],
+  "experiences": [
+    {
+      "title": "Junior Web Developer",
+      "titleBn": "জুনিয়র ওয়েব ডেভেলপার",
+      "company": "Tech Company",
+      "period": "2023 - Present",
+      "periodBn": "২০২৩ - বর্তমান",
+      "description": "Building modern web applications using React, Next.js, and TypeScript.",
+      "descriptionBn": "React, Next.js এবং TypeScript ব্যবহার করে আধুনিক ওয়েব অ্যাপ্লিকেশন তৈরি।",
+      "icon": "bi-briefcase-fill",
+      "type": "full-time"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "degreeBn": "বিজ্ঞান স্নাতক",
+      "institution": "University",
+      "institutionBn": "বিশ্ববিদ্যালয়",
+      "period": "2020 - 2024",
+      "periodBn": "২০২০ - ২০২৪",
+      "icon": "bi-mortarboard-fill"
+    }
+  ],
+  "testimonials": [],
+  "certificates": [],
+  "faq": [
+    {
+      "question": "What technologies do you use?",
+      "questionBn": "আপনি কোন প্রযুক্তি ব্যবহার করেন?",
+      "answer": "I primarily work with React, Next.js, TypeScript, Tailwind CSS, and Node.js.",
+      "answerBn": "আমি মূলত React, Next.js, TypeScript, Tailwind CSS এবং Node.js নিয়ে কাজ করি।"
+    }
+  ],
+  "contactInfo": [
+    {
+      "icon": "bi-envelope-fill",
+      "title": "Email",
+      "titleBn": "ইমেইল",
+      "value": "মো. মুবারক হোসেন",
+      "valueEn": "admin@mubarok.com",
+      "link": "mailto:admin@mubarok.com"
+    },
+    {
+      "icon": "bi-geo-alt-fill",
+      "title": "Location",
+      "titleBn": "অবস্থান",
+      "value": "বাংলাদেশ",
+      "valueEn": "Bangladesh",
+      "link": null
+    }
+  ]
+}
