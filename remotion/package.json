@@ -1,0 +1,29 @@
+{
+  "name": "mubarok-remotion-videos",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Remotion source for ALL portfolio videos — Projects showcase (9), site covers, backgrounds, brand logo (PNG/MP4) and developer showreel",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:projects": "bash scripts/render-projects.sh",
+    "still:posters": "bash scripts/still-posters.sh",
+    "render:covers": "bash scripts/render-covers.sh",
+    "render:backgrounds": "bash scripts/render-backgrounds.sh",
+    "render:showreel": "remotion render src/index.ts Showreel renders/site-videos/hero.mp4 --codec=h264 --crf=20",
+    "render:logo": "remotion render src/index.ts LogoVideo renders/brand/logo-video.mp4 --codec=h264 --crf=17",
+    "render:ident": "remotion render src/index.ts BrandIdent renders/site-videos/avatar.mp4 --codec=h264 --crf=20",
+    "still:mark": "remotion still src/index.ts LogoMark renders/brand/logo-mark.png",
+    "still:light": "remotion still src/index.ts LogoFullLight renders/brand/logo-full-light.png",
+    "still:dark": "remotion still src/index.ts LogoFullDark renders/brand/logo-full-dark.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
