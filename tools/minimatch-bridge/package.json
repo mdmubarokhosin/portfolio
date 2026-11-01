@@ -1,0 +1,7 @@
+{
+  "name": "minimatch-bridge",
+  "version": "1.0.0",
+  "description": "Security bridge: wraps the patched minimatch@11.x (CVE-2026-118764 fix) behind the legacy v3-style callable CJS API that some older ESLint plugins still expect (eslint-plugin-react, eslint-plugin-jsx-a11y, eslint-plugin-import call require('minimatch') directly). The real patched minimatch is installed at the project root as the 'minimatch-real' alias (npm:minimatch@^11.0.3). Delete this folder + the 'overrides' entry in the root package.json once those plugins ship minimatch@11-compatible releases.",
+  "main": "index.js",
+  "license": "MIT"
+}

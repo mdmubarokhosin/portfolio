@@ -1,0 +1,569 @@
+{
+  "personal": {
+    "name": "MD Mubarok Hossain",
+    "nameBn": "মো. মোবারক হোসেন",
+    "firstName": "Mubarok",
+    "firstNameBn": "মোবারক",
+    "initials": "MMH",
+    "siteLogo": "",
+    "title": "Web Developer | React & Next.js Specialist",
+    "titleBn": "ওয়েব ডেভেলপার | React ও Next.js স্পেশালিস্ট",
+    "tagline": "Building modern web experiences with clean code",
+    "taglineBn": "পরিষ্কার কোডের সাথে আধুনিক ওয়েব অভিজ্ঞতা তৈরি করছি",
+    "bio": {
+      "short": "A passionate web developer from Bangladesh specializing in React, Next.js, and modern web technologies.",
+      "shortBn": "বাংলাদেশের একজন অনুরাগী ওয়েব ডেভেলপার যিনি React, Next.js এবং আধুনিক ওয়েব প্রযুক্তিতে বিশেষজ্ঞ।",
+      "full": [
+        "I am a passionate web developer with expertise in building modern, responsive, and user-friendly web applications using React, Next.js, TypeScript, and Node.js.",
+        "I love turning ideas into polished digital products — from pixel-perfect interfaces to reliable backends. I care deeply about clean architecture, performance, and accessibility, and I enjoy learning new technologies every day.",
+        "When I am not coding, I explore UI design trends, contribute to open-source projects, and help others start their journey in web development."
+      ],
+      "fullBn": [
+        "আমি একজন অনুরাগী ওয়েব ডেভেলপার যিনি React, Next.js, TypeScript এবং Node.js ব্যবহার করে আধুনিক, রেসপন্সিভ এবং ব্যবহারকারী-বান্ধব ওয়েব অ্যাপ্লিকেশন তৈরি করতে দক্ষ।",
+        "আইডিয়াকে নিখুঁত ডিজিটাল প্রোডাক্টে রূপ দিতে আমি ভালোবাসি — পিক্সেল-পারফেক্ট ইন্টারফেস থেকে নির্ভরযোগ্য ব্যাকএন্ড পর্যন্ত। ক্লিন আর্কিটেকচার, পারফরম্যান্স ও অ্যাক্সেসিবিলিটি নিয়ে আমি যত্নবান, এবং প্রতিদিন নতুন প্রযুক্তি শিখতে আমি উপভোগ করি।",
+        "কোডিংয়ের বাইরে আমি UI ডিজাইন ট্রেন্ড অনুসরণ করি, ওপেন-সোর্স প্রজেক্টে অবদান রাখি এবং অন্যদের ওয়েব ডেভেলপমেন্ট যাত্রা শুরু করতে সাহায্য করি।"
+      ]
+    },
+    "email": "contact.mdmubarok@gmail.com",
+    "location": "বাংলাদেশ",
+    "locationEn": "Bangladesh",
+    "languages": [
+      "Bengali",
+      "English",
+      "Hindi"
+    ],
+    "languagesBn": [
+      "বাংলা",
+      "ইংরেজি",
+      "হিন্দি"
+    ],
+    "availability": "Open to work",
+    "availabilityBn": "কাজ করতে আগ্রহী",
+    "workingHours": "Sat - Thu, 10:00 AM - 7:00 PM",
+    "workingHoursBn": "শনিবার - বৃহস্পতিবার, সকাল ১০টা - সন্ধ্যা ৭টা",
+    "profileImage": "",
+    "profileVideo": "/videos/avatar.mp4",
+    "resumeUrl": ""
+  },
+  "stats": [
+    {
+      "label": "Projects",
+      "labelBn": "প্রজেক্ট",
+      "value": 10,
+      "suffix": "+",
+      "icon": "code",
+      "suffixBn": "+"
+    },
+    {
+      "label": "Technologies",
+      "labelBn": "প্রযুক্তি",
+      "value": 20,
+      "suffix": "+",
+      "icon": "layers",
+      "suffixBn": "+"
+    },
+    {
+      "label": "Experience",
+      "labelBn": "অভিজ্ঞতা",
+      "value": 2,
+      "suffix": " Years",
+      "icon": "briefcase",
+      "suffixBn": " বছর"
+    },
+    {
+      "label": "Clients",
+      "labelBn": "ক্লায়েন্ট",
+      "value": 15,
+      "suffix": "+",
+      "icon": "users",
+      "suffixBn": "+"
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "labelBn": "হোম",
+      "icon": "home"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "labelBn": "সম্পর্কে",
+      "icon": "user"
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "labelBn": "দক্ষতা",
+      "icon": "code"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "labelBn": "প্রজেক্ট",
+      "icon": "folder"
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "labelBn": "অভিজ্ঞতা",
+      "icon": "briefcase"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "labelBn": "যোগাযোগ",
+      "icon": "mail"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/mdmubarokhosin"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://linkedin.com/in/mdmubarokhosin"
+    },
+    {
+      "name": "Facebook",
+      "icon": "facebook",
+      "url": "https://facebook.com/mdmubarokhosin"
+    }
+  ],
+  "services": [
+    {
+      "title": "Web Development",
+      "titleBn": "ওয়েব ডেভেলপমেন্ট",
+      "description": "Building modern, fast and scalable web applications with React, Next.js and TypeScript.",
+      "descriptionBn": "React, Next.js ও TypeScript দিয়ে আধুনিক, দ্রুতগতির এবং স্কেলেবল ওয়েব অ্যাপ্লিকেশন তৈরি।",
+      "icon": "globe"
+    },
+    {
+      "title": "UI/UX Design",
+      "titleBn": "ইউআই/ইউএক্স ডিজাইন",
+      "description": "Creating beautiful, intuitive interfaces with great user experience and attention to detail.",
+      "descriptionBn": "চমৎকার ব্যবহারকারী অভিজ্ঞতাসহ সুন্দর ও স্বজ্ঞাত ইউজার ইন্টারফেস তৈরি।",
+      "icon": "palette"
+    },
+    {
+      "title": "Responsive Design",
+      "titleBn": "রেসপন্সিভ ডিজাইন",
+      "description": "Pixel-perfect layouts that work flawlessly on mobile, tablet and desktop screens.",
+      "descriptionBn": "মোবাইল, ট্যাবলেট ও ডেস্কটপ — সব স্ক্রিনে নিখুঁতভাবে কাজ করে এমন ডিজাইন।",
+      "icon": "smartphone"
+    },
+    {
+      "title": "Performance & SEO",
+      "titleBn": "পারফরম্যান্স ও এসইও",
+      "description": "Optimizing speed, Core Web Vitals and search visibility so your site ranks and converts.",
+      "descriptionBn": "গতি, Core Web Vitals ও সার্চ ভিজিবিলিটি অপটিমাইজ করে সাইটকে এগিয়ে রাখা।",
+      "icon": "zap"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "icon": "code",
+      "level": 90,
+      "color": "#61dafb",
+      "category": "frontend",
+      "logoUrl": "/images/skills/react.svg"
+    },
+    {
+      "name": "Next.js",
+      "icon": "code",
+      "level": 85,
+      "color": "#22d3ee",
+      "category": "frontend",
+      "logoUrl": "/images/skills/nextdotjs.svg"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "filecode",
+      "level": 80,
+      "color": "#3178c6",
+      "category": "frontend",
+      "logoUrl": "/images/skills/typescript.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "palette",
+      "level": 88,
+      "color": "#06b6d4",
+      "category": "frontend",
+      "logoUrl": "/images/skills/tailwindcss.svg"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "braces",
+      "level": 92,
+      "color": "#f7df1e",
+      "category": "frontend",
+      "logoUrl": "/images/skills/javascript.svg"
+    },
+    {
+      "name": "Node.js",
+      "icon": "server",
+      "level": 75,
+      "color": "#339933",
+      "category": "backend",
+      "logoUrl": "/images/skills/nodedotjs.svg"
+    },
+    {
+      "name": "Firebase",
+      "icon": "database",
+      "level": 70,
+      "color": "#ffca28",
+      "category": "backend",
+      "logoUrl": "/images/skills/firebase.svg"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "database",
+      "level": 68,
+      "color": "#47a248",
+      "category": "backend",
+      "logoUrl": "/images/skills/mongodb.svg"
+    },
+    {
+      "name": "Git & GitHub",
+      "icon": "gitbranch",
+      "level": 85,
+      "color": "#f05032",
+      "category": "tools",
+      "logoUrl": "/images/skills/git.svg"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma",
+      "level": 72,
+      "color": "#f24e1e",
+      "category": "tools",
+      "logoUrl": "/images/skills/figma.svg"
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "all",
+      "label": "All",
+      "labelBn": "সব",
+      "icon": "grid"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "labelBn": "ফ্রন্টএন্ড",
+      "icon": "monitor"
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "labelBn": "ব্যাকএন্ড",
+      "icon": "server"
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "labelBn": "টুলস",
+      "icon": "wrench"
+    }
+  ],
+  "additionalTools": [
+    {
+      "name": "VS Code",
+      "icon": "filecode"
+    },
+    {
+      "name": "Vercel",
+      "icon": "triangle"
+    },
+    {
+      "name": "Cloudflare",
+      "icon": "cloud"
+    },
+    {
+      "name": "Postman",
+      "icon": "send"
+    },
+    {
+      "name": "Chrome DevTools",
+      "icon": "bug"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "titleBn": "ই-কমার্স প্ল্যাটফর্ম",
+      "description": "A full-featured online store with product catalog, cart, secure checkout and an admin dashboard for managing inventory and orders.",
+      "descriptionBn": "প্রোডাক্ট ক্যাটালগ, কার্ট, নিরাপদ চেকআউট এবং ইনভেন্টরি ও অর্ডার ম্যানেজমেন্টের জন্য অ্যাডমিন ড্যাশবোর্ডসহ পূর্ণাঙ্গ অনলাইন স্টোর।",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "MongoDB"
+      ],
+      "icon": "shoppingcart",
+      "color": "#06b6d4",
+      "liveUrl": "",
+      "codeUrl": "https://github.com/mdmubarokhosin",
+      "featured": true,
+      "category": "fullstack",
+      "coverImage": "/images/projects/ecommerce-poster.jpg",
+      "coverVideo": "/videos/projects/ecommerce.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Analytics Dashboard",
+      "titleBn": "অ্যানালিটিক্স ড্যাশবোর্ড",
+      "description": "A real-time analytics dashboard with interactive charts, data filters, dark mode and role-based access for business insights.",
+      "descriptionBn": "ইন্টারঅ্যাক্টিভ চার্ট, ডেটা ফিল্টার, ডার্ক মোড ও রোল-ভিত্তিক অ্যাক্সেসসহ রিয়েল-টাইম অ্যানালিটিক্স ড্যাশবোর্ড।",
+      "tags": [
+        "React",
+        "Chart.js",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "icon": "barchart",
+      "color": "#14b8a6",
+      "liveUrl": "",
+      "codeUrl": "https://github.com/mdmubarokhosin",
+      "featured": true,
+      "category": "frontend",
+      "coverImage": "/images/projects/dashboard-poster.jpg",
+      "coverVideo": "/videos/projects/dashboard.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Task Flow Mobile App",
+      "titleBn": "টাস্ক ফ্লো মোবাইল অ্যাপ",
+      "description": "A cross-platform productivity app with kanban boards, reminders, offline sync and a beautiful gesture-driven interface.",
+      "descriptionBn": "কানবান বোর্ড, রিমাইন্ডার, অফলাইন সিঙ্ক এবং সুন্দর জেসচার-ভিত্তিক ইন্টারফেসসহ ক্রস-প্ল্যাটফর্ম প্রোডাক্টিভিটি অ্যাপ।",
+      "tags": [
+        "React",
+        "PWA",
+        "Firebase",
+        "Framer Motion"
+      ],
+      "icon": "checksquare",
+      "color": "#0ea5a5",
+      "liveUrl": "",
+      "codeUrl": "https://github.com/mdmubarokhosin",
+      "featured": true,
+      "category": "fullstack",
+      "coverImage": "/images/projects/mobileapp-poster.jpg",
+      "coverVideo": "/videos/projects/mobileapp.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "titleBn": "পোর্টফোলিও ওয়েবসাইট",
+      "description": "This very website — a bilingual, animated portfolio built with Next.js, TypeScript and Tailwind CSS, deployed on Cloudflare Pages.",
+      "descriptionBn": "এই ওয়েবসাইটটিই — Next.js, TypeScript ও Tailwind CSS দিয়ে তৈরি দ্বিভাষিক, অ্যানিমেটেড পোর্টফোলিও, Cloudflare Pages-এ ডিপলয় করা।",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Remotion"
+      ],
+      "icon": "globe",
+      "color": "#06b6d4",
+      "liveUrl": "",
+      "codeUrl": "https://github.com/mdmubarokhosin/portfolio",
+      "featured": false,
+      "category": "frontend",
+      "coverImage": "/images/projects/portfolio-site-poster.jpg",
+      "coverVideo": "/videos/projects/portfolio-site.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Dev Blog Platform",
+      "titleBn": "ডেভ ব্লগ প্ল্যাটফর্ম",
+      "description": "A markdown-based blogging platform with syntax highlighting, tags, reading time and a lightning-fast static rendering pipeline.",
+      "descriptionBn": "সিনট্যাক্স হাইলাইটিং, ট্যাগ, রিডিং টাইম এবং দ্রুতগতির স্ট্যাটিক রেন্ডারিং পাইপলাইনসহ মার্কডাউন-ভিত্তিক ব্লগিং প্ল্যাটফর্ম।",
+      "tags": [
+        "Next.js",
+        "MDX",
+        "Contentlayer",
+        "Vercel"
+      ],
+      "icon": "filetext",
+      "color": "#0891b2",
+      "liveUrl": "",
+      "codeUrl": "https://github.com/mdmubarokhosin",
+      "featured": false,
+      "category": "fullstack",
+      "coverImage": "/images/projects/devblog-poster.jpg",
+      "coverVideo": "/videos/projects/devblog.mp4"
+    }
+  ],
+  "projectCategories": [
+    {
+      "id": "all",
+      "label": "All",
+      "labelBn": "সব",
+      "icon": "grid"
+    },
+    {
+      "id": "fullstack",
+      "label": "Full Stack",
+      "labelBn": "ফুল স্ট্যাক",
+      "icon": "layers"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "labelBn": "ফ্রন্টএন্ড",
+      "icon": "monitor"
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "labelBn": "ব্যাকএন্ড",
+      "icon": "server"
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Junior Web Developer",
+      "titleBn": "জুনিয়র ওয়েব ডেভেলপার",
+      "company": "Tech Company",
+      "period": "2023 - Present",
+      "periodBn": "২০২৩ - বর্তমান",
+      "description": "Building modern web applications with React, Next.js and TypeScript. Collaborating with designers to ship responsive, accessible interfaces and maintaining reusable component libraries.",
+      "descriptionBn": "React, Next.js ও TypeScript দিয়ে আধুনিক ওয়েব অ্যাপ্লিকেশন তৈরি। ডিজাইনারদের সাথে মিলে রেসপন্সিভ, অ্যাক্সেসিবল ইন্টারফেস ডেলিভারি এবং পুনঃব্যবহারযোগ্য কম্পোনেন্ট লাইব্রেরি রক্ষণাবেক্ষণ।",
+      "icon": "briefcase",
+      "type": "full-time",
+      "companyBn": "টেক প্রতিষ্ঠান"
+    },
+    {
+      "title": "Freelance Web Developer",
+      "titleBn": "ফ্রিল্যান্স ওয়েব ডেভেলপার",
+      "company": "Self-employed",
+      "period": "2022 - 2023",
+      "periodBn": "২০২২ - ২০২৩",
+      "description": "Delivered landing pages, business websites and small web apps for local and international clients — from design to deployment.",
+      "descriptionBn": "স্থানীয় ও আন্তর্জাতিক ক্লায়েন্টদের জন্য ল্যান্ডিং পেজ, বিজনেস ওয়েবসাইট ও ছোট ওয়েব অ্যাপ ডেলিভারি — ডিজাইন থেকে ডিপলয়মেন্ট পর্যন্ত।",
+      "icon": "laptop",
+      "type": "freelance",
+      "companyBn": "স্ব-নিযুক্ত"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "degreeBn": "বিজ্ঞান স্নাতক",
+      "institution": "National University, Bangladesh",
+      "institutionBn": "জাতীয় বিশ্ববিদ্যালয়, বাংলাদেশ",
+      "period": "2020 - 2024",
+      "periodBn": "২০২০ - ২০২৪",
+      "icon": "graduationcap"
+    }
+  ],
+  "testimonials": [],
+  "certificates": [
+    {
+      "title": "Meta Front-End Developer",
+      "titleBn": "মেটা ফ্রন্ট-এন্ড ডেভেলপার",
+      "issuer": "Coursera · Meta",
+      "issuerBn": "কুরসেরা · মেটা",
+      "date": "2024",
+      "dateBn": "২০২৪",
+      "color": "#06b6d4"
+    },
+    {
+      "title": "JavaScript Algorithms & Data Structures",
+      "titleBn": "জাভাস্ক্রিপ্ট অ্যালগরিদম ও ডেটা স্ট্রাকচার",
+      "issuer": "freeCodeCamp",
+      "issuerBn": "ফ্রিকোডক্যাম্প",
+      "date": "2023",
+      "dateBn": "২০২৩",
+      "color": "#14b8a6"
+    },
+    {
+      "title": "Responsive Web Design",
+      "titleBn": "রেসপনসিভ ওয়েব ডিজাইন",
+      "issuer": "freeCodeCamp",
+      "issuerBn": "ফ্রিকোডক্যাম্প",
+      "date": "2023",
+      "dateBn": "২০২৩",
+      "color": "#0e7490"
+    },
+    {
+      "title": "Complete Web Development Bootcamp",
+      "titleBn": "সম্পূর্ণ ওয়েব ডেভেলপমেন্ট বুটক্যাম্প",
+      "issuer": "Programming Hero",
+      "issuerBn": "প্রোগ্রামিং হিরো",
+      "date": "2023",
+      "dateBn": "২০২৩",
+      "color": "#22d3ee"
+    },
+    {
+      "title": "React — The Complete Guide",
+      "titleBn": "রিঅ্যাক্ট — দ্য কমপ্লিট গাইড",
+      "issuer": "Udemy",
+      "issuerBn": "ইউডেমি",
+      "date": "2024",
+      "dateBn": "২০২৪",
+      "color": "#0891b2"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What technologies do you use?",
+      "questionBn": "আপনি কোন প্রযুক্তি ব্যবহার করেন?",
+      "answer": "I primarily work with React, Next.js, TypeScript, Tailwind CSS and Node.js. For databases and auth I use Firebase or MongoDB depending on the project.",
+      "answerBn": "আমি মূলত React, Next.js, TypeScript, Tailwind CSS ও Node.js নিয়ে কাজ করি। ডেটাবেজ ও অথেনটিকেশনের জন্য প্রজেক্ট অনুযায়ী Firebase বা MongoDB ব্যবহার করি।"
+    },
+    {
+      "question": "Can you build a complete website for my business?",
+      "questionBn": "আমার ব্যবসার জন্য কি সম্পূর্ণ ওয়েবসাইট বানাতে পারবেন?",
+      "answer": "Absolutely! From design to development and deployment — I build complete, responsive and SEO-friendly websites tailored to your business goals.",
+      "answerBn": "অবশ্যই! ডিজাইন থেকে ডেভেলপমেন্ট ও ডিপলয়মেন্ট পর্যন্ত — আপনার ব্যবসার লক্ষ্য অনুযায়ী সম্পূর্ণ, রেসপন্সিভ ও এসইও-বান্ধব ওয়েবসাইট তৈরি করি।"
+    },
+    {
+      "question": "Are you available for freelance work?",
+      "questionBn": "আপনি কি ফ্রিল্যান্স কাজের জন্য উপলব্ধ?",
+      "answer": "Yes! I am currently open to freelance projects and full-time opportunities. Feel free to reach out through the contact form or email.",
+      "answerBn": "হ্যাঁ! আমি বর্তমানে ফ্রিল্যান্স প্রজেক্ট ও ফুল-টাইম সুযোগের জন্য উন্মুক্ত। কন্টাক্ট ফর্ম বা ইমেইলে নির্দ্বিধায় যোগাযোগ করুন।"
+    }
+  ],
+  "contactInfo": [
+    {
+      "icon": "mail",
+      "title": "Email",
+      "titleBn": "ইমেইল",
+      "value": "contact.mdmubarok@gmail.com",
+      "valueEn": "contact.mdmubarok@gmail.com",
+      "link": "mailto:contact.mdmubarok@gmail.com"
+    },
+    {
+      "icon": "map-pin",
+      "title": "Location",
+      "titleBn": "অবস্থান",
+      "value": "বাংলাদেশ",
+      "valueEn": "Bangladesh",
+      "link": null
+    },
+    {
+      "icon": "clock",
+      "title": "Working Hours",
+      "titleBn": "কাজের সময়",
+      "value": "শনিবার - বৃহস্পতিবার, সকাল ১০টা - সন্ধ্যা ৭টা",
+      "valueEn": "Sat - Thu, 10:00 AM - 7:00 PM",
+      "link": null
+    },
+    {
+      "icon": "checkcircle",
+      "title": "Availability",
+      "titleBn": "উপলব্ধতা",
+      "value": "কাজ করতে আগ্রহী",
+      "valueEn": "Open to work",
+      "link": null
+    }
+  ]
+}
