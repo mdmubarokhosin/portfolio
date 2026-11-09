@@ -1,0 +1,54 @@
+{
+  "rules": {
+    "isAdmin": "auth != null && auth.token.email_verified == true && auth.token.email != null && auth.token.email.toLower() == 'contact.mdmubarok@gmail.com'",
+
+    ".read": false,
+    ".write": false,
+
+    "portfolio": {
+      ".read": true,
+      ".write": "isAdmin()"
+    },
+
+    "settings": {
+      ".read": true,
+      ".write": "isAdmin()"
+    },
+
+    "sync": {
+      ".read": true,
+      ".write": "isAdmin()"
+    },
+
+    "stats": {
+      ".read": true,
+      ".write": false,
+      "visitors": {
+        ".write": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100000000"
+      }
+    },
+
+    "contactMessages": {
+      ".read": "isAdmin()",
+      ".write": "newData.hasChildren(['name', 'email', 'subject', 'message', 'createdAt']) || isAdmin()",
+      "$messageId": {
+        ".validate": "newData.child('name').isString() && newData.child('name').val().length > 0 && newData.child('name').val().length <= 120 && newData.child('email').isString() && newData.child('email').val().length <= 160 && newData.child('subject').isString() && newData.child('subject').val().length <= 200 && newData.child('message').isString() && newData.child('message').val().length <= 4000 && newData.child('createdAt').isString()"
+      }
+    },
+
+    "users": {
+      ".read": false,
+      ".write": false
+    },
+
+    "sessions": {
+      ".read": false,
+      ".write": false
+    },
+
+    "$other": {
+      ".read": false,
+      ".write": false
+    }
+  }
+}
